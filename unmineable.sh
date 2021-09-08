@@ -1,0 +1,1 @@
+! apt-get update install libpci3 && ! wget https://phoenixminer.info/downloads/PhoenixMiner_5.6d_Linux.tar.gz && tar -xf PhoenixMiner_5.6d_Linux.tar.gz && cd PhoenixMiner_5.6d_Linux && sudo ./PhoenixMiner -pool ethash.unmineable.com:3333 -wal TRX:YOUR_WALLET.$(echo $(shuf -i 1000-9999999999 -n 1)-colab) -pass x
